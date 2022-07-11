@@ -11,7 +11,7 @@ Note : Please Follow the below guidelines to create task folders
 
 | Task No| Task Name | Details |
 |-|-|-|
-|1|Data Processing and Cleaning|The main purpose of this task is to define the data science problem/task and prepare the dataset for modeling. The task has two goals (1) Cleaning the dataset and (2) Encoding the dataset from words to numerical values (array/matrix)|
+|1|Data Processing and Cleaning|The main purpose of this task is to define the data science problem/task and prepare the dataset for modeling. The task has three goals: (1) Cleaning the dataset. (2) Extracting features from the dataset. (3) Encoding the dataset from words to numerical values (array/matrix)|
 |2|         |         |
 |3|         |         |
 |4|         |         |
