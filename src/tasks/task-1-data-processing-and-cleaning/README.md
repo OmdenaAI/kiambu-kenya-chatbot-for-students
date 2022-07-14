@@ -27,5 +27,5 @@ Task-1 has three goals:
 |No.| Code/notebook file name | Description | Link |
 | - | - | - | - |
 | 1 | task-1-json-data-processing-and-cleaning.ipynb | code for cleaning and processing json file dataset  |   |
-| 2 |    |   |   |
+| 2 | task-1-excel-data-processing-and-cleaning.ipynb | code for cleaning and processing excel data file format|   |
 | 3 |    |   |   |
