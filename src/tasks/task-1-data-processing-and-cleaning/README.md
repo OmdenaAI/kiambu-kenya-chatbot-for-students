@@ -4,10 +4,10 @@ Our dataset is organized into classes of tag names, sentence patterns, and respo
 This indicates that the students' Chatbot receives instructions from students in form of sentence patterns made of words.
 The bot classifies the sentence patterns according to class/tag name the sentence belongs to; then draws a response from that class as feedback to the student.
 
-The dataset has tag names as labels to sentence patterns and responnses classes/categories. We will frame the data science problem as a Supervised Machine Learning problem.
+The dataset has tag names as labels to sentence patterns and responses classes/categories. We frame the data science problem as a Supervised Machine Learning problem.
 Also, the dataset has tag name categories hence we will frame the data science task as a Classification Task.
 
-In summary, the task entails classifying sentence patterns according to tag names and drawing responses from respective tag name as feedback to the student
+In summary, the task entails training the chatbot on sentence Patterns (intents) so that the bot understands intents when asked by students. The task involves classifying sentence patterns according to tag names and drawing responses from respective tag name as feedback to the student
 
 ### Task-1 Goals
 Task-1 has three goals:
