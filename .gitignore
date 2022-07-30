@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+#code editor
+.vscode/*
+!.vscode/settings.json
+
 # Distribution / packaging
 .Python
 build/
@@ -106,6 +110,7 @@ celerybeat.pid
 .venv
 env/
 venv/
+chatbot-env/
 ENV/
 env.bak/
 venv.bak/
