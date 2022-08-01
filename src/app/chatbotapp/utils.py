@@ -11,3 +11,9 @@ class Util:
         # TODO: Complete the implemtatation
 
         return ''
+
+    @classmethod
+    def process_input(self, message):
+        #load the model pickle file and make a prediction for a user input
+        res = f"You asked <strong>'{message}'</strong>. We will transfer you to availbe client to help out."
+        return res

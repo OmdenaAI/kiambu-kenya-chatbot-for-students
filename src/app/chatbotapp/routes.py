@@ -13,11 +13,23 @@ def index():
 
 
 @socketio.on('incoming_connection')
-def handle_incoming_connection(json, methods=['GET', 'POST']):
+def handle_incoming_connection(data, methods=['GET', 'POST']):
     """This is the chat client that listens to incoming message and 
         send back resposne to the chat client
     """
 
     #TODO: Complete the application and add user request parsing and sending the models response
-    print(f'received my message from front end client: {str(json)}')
-    socketio.emit('chatbot_response', json, callback=Util.incoming_event_callback)
+    #extract the application
+    incoming_message = data.get("message", "")
+
+    chat_res = Util.process_input(incoming_message)
+    
+    print(f'received my message from front end client: {incoming_message}')
+
+    #call the predict method and get response
+    res = {
+        "data": chat_res
+    }
+
+    #send the response back to the user
+    socketio.emit('chatbot_response', res, callback=Util.incoming_event_callback)
