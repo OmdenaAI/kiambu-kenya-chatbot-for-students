@@ -1,0 +1,103 @@
+{
+    "intents": [
+        {"tag" : "greeting",
+         "patterns": ["Hi", "Hi there", "Hey", "hey", "hi", "hi there", "how are you", "How are you", "sasa", "SaSa", "sema", "Sema",
+            "Habari", "Habari yako", "uko aje", "Ukoje", "hello", "Hello", "Good evening", "Good morning", "Good afternoon",
+            "Morning", "evening",     "afternoon", "hello there", "Hello there", "mambo", "Mambo"],
+          "responses":["Hi stranger", "poa", "Hi too", "hi too", "hello", "Hola", "hello, how can I help you?", "Poa", "Mzuri","mzuri"]
+        },
+        
+        {"tag" : "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye", "bye", "bye bye", "okay", "Okay","wakati mwema"],
+         "responses" : ["See you!", "Have a nice day","shinda poa", "sure bye", "Sure byeeeee", "Same to you"]
+        },
+        
+        {"tag" : "thanks",
+         "patterns" : ["Thanks", "Thank you", "That was helpful", "Awesome", "Thanks for your help", "asanti", "thank you", "thank you so much","Nashukuru"],
+          "responses" : ["Happy to help", "Any time!","my pleasure","You are welcome", "Sure, see you then", "My Pleasure", "Welcome"]
+         },
+        
+         {"tag" : "noanswer",
+          "patterns" : [],
+          "responses" : ["Sorry, I can't understand you", "Please give me mmore information",
+            "Kindly elaborate on your issue", "Provide more information please", "Pardon please", "Kindly explain more in new terms"]
+         },
+
+         {"tag":"name",
+          "patterns":["what is your name?","your name please","name please","Your Name please","Can you tell me your name"],
+          "responses":["am PrinceBot", "call me PrinceBot","Okay, am PrinceBot","My name is PrinceBot", "PrinceBot and what about your name"]
+
+
+         },
+        
+        {"tag" : "need",
+         "patterns" : ["I am..., I want your help", "My name is...,please help", "Am called...help me here please"],
+         "responses": ["Good to know your name, how can I help you", "Great, how can I be of help to you?", "Okay, state the issue you want me to help you, please"]
+        },
+        
+        {"tag" : "options", 
+         "patterns": ["Can you give me information about DeKUT?", "Can you tell me about Dedan Kimathi University of Technology?",
+            "dekut", "Dekut", "DEKUT", "DeKUT", "Dedan Kimathi University of Technology", "Tell me about DeKUT", "What about DeKUT",
+            "How is DeKUT", "how is dekut", "HOW IS DEKUT", "Explain to me about dekut", "Explain to me about DeKUT", "I want information about DeKUT", 
+            "Tell me about Dedan Kimathi University", "general information about Dedan Kimathi University", "General information about Dedan Kimathi University", "General information about Dedan Kimathi University of Technology"],
+         "responses": ["Dedan Kimathi University of Technology(DeKUT) is a public, coeducational technological University in Africa-Kenya. First university to be established under the new universities act of 2012 and 8th public university in the country. It has two compuses: Main campus located in Nyeri along Nyahururu-Mweiga road and Nairobi CBD campus. DeKUT offers certificate, diploma, undergraduate, masters and PHD programmes in various field." ]
+        },
+                             
+       {"tag" : "location",
+        "patterns": ["Where is DeKUT located", "location", "how can I find Dedan Kimathi University of Technology", "Location of DeKUT.", 
+            "location of Dedan Kimathi Universitiy of Technology", "Which city is Dedan Kimathi University of Techology found.", "where is Dedan Kimathi University of Technology located."],
+         "responses" : [" DeKUT has two campuses:  Main Campus located in Nyeri county,Kenya along Nyahururu-Mweiga highway.  Nairobi CBD Campus located at Pension Towers in Loita Street, nd, th, th floor."]
+        },
+        
+       {"tag" : "programmes",
+        "patterns" :["What are the programmes offerred at Dedan Kimathi University of Technology.", "Courses offered at DeKUT.", "Courses taught at DeKUT", "List of courses at Dedan Kimathi University of Technology.", 
+            "Courses offered at Dedan Kimathi University of Technology", "Courses offered at Dedan Kimathi University."],
+        "responses":["Postgraduate Programmes", "Undergraduate Programmes","Diploma Courses","Certificate Courses"]
+        },
+
+       {"tag" : "postgraduate",
+        "patterns":["What are the postgraduate programmes", "postgraduate programmes", "Postgraduate Programmes", "Postgraduate programmes",
+            "Postgraduate programmes offered in DeKUT","PhD courses","masters courses","Masters programmes","Masters courses"],
+        "responses" : ["PhD in Mechanical Engineering", "PhD in Geomatics & Geospatial Information Science(GeGIS)","PhD in Food Science & Technology",
+            "PhD in Computer Science","PhD in Business Administration","Master of Science in Geothermal Energy Technology","Master of Science in Telecommunication Engineering"]
+        },
+
+       {"tag": "undergraduate",
+        "patterns":["What are the undergraduate programmes","Degree courses","degree courses","undergraduate programmes","Undergradaute programmes",
+            "Undergraduate Programmes","Undergraduate programmes offered in DeKUT","List to me Undergraduate Programmes","Undergraduate courses"],
+        "responses" :["BSc in Mechatronic Engineering","BSc in Mechanical Engineering","BSc in Computer Science","BSc in Acturial Science","BSc in Civil Engineering", 
+            "Bachelor in Commerce","Bachelor of Purchasing and Supplies Management","BSc in Geology","BSc in Industrial Chemistry","BSc in Information Technology","BSc in Nursing (Direct Entry)"]
+         },
+
+        {"tag":"diploma",
+         "patterns":["Give me diploma programmes at Dedan Kimathi University of Technology","diploma programmes","Diploma programmes","What are the diploma programmes offered at DeKUT?","Diploma courses"],
+         "responses":["Diploma in Leather Technology","Diploma in Information Technology","Diploma in Security Management","Diploma in Coffee Technology & Cupping","Diploma in Building Technology","Diploma in Fashion Design and Interior Decoration"]
+         },
+
+        {"tag":"certificate",
+         "patterns":["Give me certificate programmes at Dedan Kimathi University of Technology","certificate programmes","Certificate programmes","What are the certificate programmes offered at DeKUT?,Certificate courses"],
+         "responses":["Certificate in Information Technology","Certificate in Building Technology","Certificate in Electrical & Electronics & Engineering(Power Option)","Certificate in Coffee Technology & Quality Management","Certificate in Welding,Metal Works & Design"]
+         },
+       
+        {"tag":"opportunity",
+         "patterns":["What are the opportunities at Dedan Kimathi University of Technology","Opportunites at Dedan Kimathi University of Technology","Any job opportunites at Dedan Kimathi University of Technology",
+            "Jobs at Dedan Kimathi University of Technology","Any Jobs at DeKUT?","Can I get a job at DeKUT","How can I get a job at DeKUT","How can I get employed at Dedan Kimathi University of Technology",
+            "employment at DeKUT","Any Tender at DeKUT","How can I get a tender at Dedan Kimathi University of Technology"],
+         "responses":["Job opportunities, internships and Tenders are always posted on the University website. Kindly check for any open opportunities and apply for one that interest you.",
+            "For Jobs, Internships and Tender available in the institution Kindly check the University website. If any is open, follow the given procedures to apply"]
+        },
+       
+       {"tag":"club",
+        "patterns":["Clubs at Dedan Kimathi University of Technology","clubs at DeKUT","List of clubs at Dedan Kimathi University","How many clubs are at Dedan Kimathi University of Technology","clubs",
+            "Clubs","Give me clubs at Dedan Kimathi University of Technology","Clubs found at DeKUT"],
+        "responses":["International Association Exchange of Students for Technical Experience(IAESTE, Contact)",
+                     "DeKUT Innovators Club(Contact: )",
+                     "Google Developers Students Club_DeKUT (Contact: )",
+                     "DeKUT Ajira Digital Club (Contact: )",
+                     "Data Science and Artificial Intelligence Club (Contact: )",
+                     "Microsoft Learn Students Ambassadors DeKUT Club (Contact: )"]
+        
+        }
+    ]
+
+}
